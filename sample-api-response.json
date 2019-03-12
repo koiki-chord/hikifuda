@@ -1,0 +1,64 @@
+{
+  "id": "bb3a995c-44cb-11e9-b210-d663bd873d93",
+  "name": "Koiki",
+  "thumbnail": "https://koikijs.github.io/images/logo.png",
+  "tags": ["JavaScript", "Koiki", "Nabnab"],
+  "frequency": "HIGH",
+  "numberOfMembers": 2000,
+  "events": [
+    {
+      "id": "4d96d7e6-f598-4d5b-9d8a-e1c7dddddca7",
+      "name": "Koiki #1",
+      "thumbnail": "https://koikijs.github.io/images/logo.png"
+    },
+    {
+      "id": "57c1af5b-8c6e-4f3a-8ce3-df5306e909c8",
+      "name": "Koiki #2",
+      "thumbnail": "https://koikijs.github.io/images/logo.png"
+    },
+    {
+      "id": "84522663-25ad-4d2e-b60d-66b1d17690a2",
+      "name": "Koiki #3",
+      "thumbnail": "https://koikijs.github.io/images/logo.png"
+    }
+  ],
+  "description": "KOIKI is organization to create STYLISH(KOIKI) products.",
+  "members": [
+    {
+      "id": "32df3126-5a08-47a6-8764-4ae4bd63e730",
+      "name": "241",
+      "thumbnail": "https://koikijs.github.io/images/members/241-icon.png",
+      "type": "ORGANIZOR"
+    },
+    {
+      "id": "5b065d4c-5c8f-49dc-ae67-1d87ceed7f58",
+      "name": "Nabnab",
+      "thumbnail": "https://koikijs.github.io/images/members/nab-icon.png",
+      "type": "MEMBER"
+    },
+    {
+      "id": "a27993b8-be32-4f3c-877e-9a1cbe2c8947",
+      "name": "Sideroad",
+      "thumbnail": "https://koikijs.github.io/images/members/sideroad-icon.png",
+      "type": "MEMBER"
+    },
+    {
+      "id": "7995cab5-9e55-4dde-ae84-c5e8f4385d47",
+      "name": "Ninja",
+      "thumbnail": "https://koikijs.github.io/images/members/ninja-icon.png",
+      "type": "MEMBER"
+    }
+  ],
+  "relatedCommunities": [
+    {
+      "id": "4f7e876b-00c3-4d0f-815f-c14832415543",
+      "name": "Sigure",
+      "thumbnail": "https://koikijs.github.io/images/products/sigure.png"
+    },
+    {
+      "id": "4a25791b-74d8-42dc-99fb-c79ccaa0c494",
+      "name": "Be Together",
+      "thumbnail": "https://koikijs.github.io/images/products/betogether.png"
+    }
+  ]
+}
