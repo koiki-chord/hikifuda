@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "Takahiro Fujii",
-  "license": "ISC",
+  "license": "MIS",
   "bugs": {
     "url": "https://github.com/koiki-chord/hikifuda/issues"
   },
@@ -22,6 +22,10 @@
   "dependencies": {
     "next": "^8.0.3",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.0"
   }
 }
