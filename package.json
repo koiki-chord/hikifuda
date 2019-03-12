@@ -1,0 +1,27 @@
+{
+  "name": "hikifuda",
+  "version": "0.0.1",
+  "description": "hikifuda is FrontEnd application for event-detail and community-detail.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koiki-chord/hikifuda.git"
+  },
+  "keywords": [],
+  "author": "Takahiro Fujii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koiki-chord/hikifuda/issues"
+  },
+  "homepage": "https://github.com/koiki-chord/hikifuda#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
