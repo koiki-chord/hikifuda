@@ -1,6 +1,7 @@
 import Layout from '../components/Layout.js'
 import styled from 'styled-components'
 import Link from 'next/link'
+import Head from 'next/head'
 import fetch from 'isomorphic-unfetch'
 
 const Title = styled.h1`
@@ -9,15 +10,29 @@ const Title = styled.h1`
 `
 
 const Index = props => (
-  <Layout>
-    <Title>Community Detail</Title>
-    <Link
-      as={`/p/${props.community.id}`}
-      href={`/post?id=${props.community.id}`}
-    >
-      <a>{props.community.name}</a>
-    </Link>
-  </Layout>
+  <div>
+    <Head>
+      <title>Hikifuda - Community / Event Detail</title>
+      <link
+        href='https://fonts.googleapis.com/css?family=Spectral'
+        rel='stylesheet'
+      />
+    </Head>
+    <Layout>
+      <Title>Community Detail</Title>
+      <Link
+        as={`/p/${props.community.id}`}
+        href={`/post?id=${props.community.id}`}
+      >
+        <a>{props.community.name}</a>
+      </Link>
+    </Layout>
+    <style global jsx>{`
+      html {
+        font-family: 'Spectral', serif;
+      }
+    `}</style>
+  </div>
 )
 
 Index.getInitialProps = async function() {
