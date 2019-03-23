@@ -17,6 +17,11 @@ const Index = props => (
         href='https://fonts.googleapis.com/css?family=Spectral'
         rel='stylesheet'
       />
+      <link
+        rel='shortcut icon'
+        href='/static/favicon.ico'
+        type='/static/favicon.ico'
+      />
     </Head>
     <Layout>
       <Title>Community Detail</Title>
