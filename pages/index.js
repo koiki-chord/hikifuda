@@ -14,7 +14,7 @@ const Index = props => (
     <Head>
       <title>Hikifuda - Community / Event Detail</title>
       <link
-        href='https://fonts.googleapis.com/css?family=Spectral'
+        href='https://fonts.googleapis.com/css?family=Spectral:400,700'
         rel='stylesheet'
       />
       <link
@@ -25,12 +25,12 @@ const Index = props => (
     </Head>
     <Layout>
       <Title>Community Detail</Title>
-      <Link
+      {/* <Link
         as={`/p/${props.community.id}`}
         href={`/post?id=${props.community.id}`}
       >
         <a>{props.community.name}</a>
-      </Link>
+      </Link> */}
     </Layout>
     <style global jsx>{`
       html {
@@ -42,8 +42,10 @@ const Index = props => (
 
 Index.getInitialProps = async function() {
   // TODO mock api response
-  const res = await fetch('http://www.mocky.io/v2/5c87b65d320000af133bd443')
-  const data = await res.json()
+  // const res = await fetch('http://www.mocky.io/v2/5c87b65d320000af133bd443')
+  // const data = await res.json()
+
+  const data = {}
 
   console.log('response', data)
 
