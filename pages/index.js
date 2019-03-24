@@ -23,7 +23,7 @@ const Index = props => (
         type='/static/favicon.ico'
       />
     </Head>
-    <Layout>
+    <Layout {...props.community}>
       <Title>Community Detail</Title>
       {/* <Link
         as={`/p/${props.community.id}`}
@@ -42,10 +42,8 @@ const Index = props => (
 
 Index.getInitialProps = async function() {
   // TODO mock api response
-  // const res = await fetch('http://www.mocky.io/v2/5c87b65d320000af133bd443')
-  // const data = await res.json()
-
-  const data = {}
+  const res = await fetch('http://www.mocky.io/v2/5c87b65d320000af133bd443')
+  const data = await res.json()
 
   console.log('response', data)
 

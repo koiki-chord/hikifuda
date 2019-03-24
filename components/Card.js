@@ -15,10 +15,14 @@ const Span = styled.span`
   font-weight: bold;
 `
 
-const Card = () => (
+const Card = props => (
   <Div>
-    <Span>Community Name</Span>
+    <Span>{props.title}</Span>
   </Div>
 )
+
+Card.defaultProps = {
+  title: 'Community Name'
+}
 
 export default Card
