@@ -22,6 +22,8 @@ const Layout = props => (
       <Card key={event.id} list />
     ))}
     <DetailLink message='Go to Event List' />
+    <Hr />
+    <H1 title='About this commuity' />
     {props.children}
   </Div>
 )
