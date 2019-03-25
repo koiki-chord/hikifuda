@@ -3,6 +3,7 @@ import Header from './Header'
 import Card from './Card'
 import Hr from './Hr'
 import H1 from './H1'
+import DetailLink from './DetailLink'
 
 const Div = styled.div`
   display: flex;
@@ -14,12 +15,13 @@ const Div = styled.div`
 const Layout = props => (
   <Div>
     <Header />
-    <Card />
+    <Card list={false} />
     <Hr />
     <H1 title='Events' />
-    {props.events.map(() => (
-      <Card />
+    {props.events.map(event => (
+      <Card key={event.id} list />
     ))}
+    <DetailLink message='Go to Event List' />
     {props.children}
   </Div>
 )
